@@ -4,8 +4,16 @@
              xmlns:local="clr-namespace:WifiSettings"
              x:Class="WifiSettings.MainPage">
 
-	<Label Text="Welcome to Xamarin.Forms!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
+    <Button BackgroundColor="Transparent"
+            BorderWidth="5"
+            BorderRadius="Red"
+            BorderColor="White"
+            Scale="1.1"
+            HorizontalOptions="Center"
+            VerticalOptions="Center"
+            TextColor="Black"
+            Clicked="BtnClick"
+            Text="Paramètres Wifi !"
+            />
 
 </ContentPage>

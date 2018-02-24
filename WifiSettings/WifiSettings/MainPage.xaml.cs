@@ -13,5 +13,10 @@ namespace WifiSettings
 		{
 			InitializeComponent();
 		}
+        void BtnClick(object sender, EventArgs args)
+        {
+            System.Diagnostics.Debug.WriteLine("Clicked");
+            DependencyService.Get<ISettings>().OpenWifi();
+        }
 	}
 }
